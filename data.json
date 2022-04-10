@@ -1,0 +1,88 @@
+{
+    "data": [
+        
+        
+        {
+            "longitude": 69.345116,
+            "name": "Pakistan",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:13:11.610Z",
+           
+            "id": "GAp7Wb6IMhdgbvEtMza9",
+            "infected": 1235,
+            
+            "latitude": 30.37532
+            
+        },
+        {
+            "infected": 33,
+           
+            "latitude": 33.738045,
+           
+            "longitude": 73.084488,
+            "name": "Islamabad",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 33,
+            
+            "latitude": 24.860966,
+           
+            "longitude":66.990501 ,
+            "name": "Karachi",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 33,
+            
+            "latitude": 31.582045,
+            
+            "longitude": 74.329376,
+            "name": "Lahore",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 333,
+            
+            "latitude":34.025917 ,
+           
+            "longitude": 71.560135,
+            "name": "Peshwar",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+            
+        },
+        {
+            "infected": 303,
+           
+            "latitude":31.976515,
+           
+            "longitude":	74.222015 ,
+            "name": "Gujaranwala",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+            
+        },
+        
+
+        {
+            "infected": 333,
+            
+            "latitude": 33.626057,
+           
+            "longitude": 73.071442,
+            "name": "Rawalpindi",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        }
+    
+        
+    ]
+}

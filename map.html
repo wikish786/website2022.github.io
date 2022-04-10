@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a> <h4>Crime Alert</h4>
+        
+       
+    </a>
+    <nav class="navbar">
+        <a class="navs" href="index.html">Home</a>
+        <a class="navs" href="/aboutus.html">AboustUs</a>
+        <a class="navs" href="/crimepost.html">CrimePosts</a>
+        <a class="navs" href="videopost.html">Videos</a>
+        <a class="navs" href="/contactus.html">ContactUs</a>
+        <a class="navs" >Map</a>
+        <a class="navs" href="/crimegraph.html">Graph</a>
+    </nav>
+    <div class="icons">
+        
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+</header>
+<div id='map' style='width: 1400; height: 500px;'></div>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>crime</span> ratio </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <canvas
+            id="myChart"
+            width="400"
+            height="700"
+            aria-label="chart"
+            role="img"></canvas>
+        </div>
+
+        <div class="content">
+            <h3>Crime ratio of different cities</h3>
+            <p>This line chart tells the different cities crime rates.</p>
+            
+        </div>
+       
+        
+    </div>
+  
+
+</section>
+
+
+<!-- home section ends -->
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic2h3aWtpIiwiYSI6ImNreWQ1cTFraDA5cjQyb3MyenJ3Y2UwNnIifQ.545OMkX80LDiKfmHj70xrw';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    zoom:2,
+    center:[0,20]
+  });
+</script>
+
+<script src ="js/index.js" > </script>
+<script src ="/data.json" > </script>
+<script src="js/chart.js"></script>
+<script src="js/custom.js"></script>
+
+
+</html>

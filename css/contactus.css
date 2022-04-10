@@ -1,0 +1,35 @@
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+
+
+.contact .row form span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+    text-transform: lowercase;
+}
+
+.contact .heading{
+
+    padding:4rem;
+  }
+  
