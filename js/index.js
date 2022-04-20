@@ -7,7 +7,7 @@ function updateMap() {
             latitude = element.latitude;
             longitude = element.longitude;
             cases=element.infected;
-            if (cases > 255) {
+            if (cases > 15) {
                 color = "rgb(255, 0, 0)";
             
             }
