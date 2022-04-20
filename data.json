@@ -15,7 +15,7 @@
             
         },
         {
-            "infected": 33,
+            "infected": 10,
            
             "latitude": 33.738045,
            
@@ -26,7 +26,7 @@
            
         },
         {
-            "infected": 33,
+            "infected": 10,
             
             "latitude": 24.860966,
            
@@ -37,7 +37,7 @@
            
         },
         {
-            "infected": 33,
+            "infected": 10,
             
             "latitude": 31.582045,
             
@@ -48,7 +48,7 @@
            
         },
         {
-            "infected": 333,
+            "infected": 3,
             
             "latitude":34.025917 ,
            
@@ -59,7 +59,7 @@
             
         },
         {
-            "infected": 303,
+            "infected": 18,
            
             "latitude":31.976515,
            
@@ -72,12 +72,67 @@
         
 
         {
-            "infected": 333,
+            "infected": 16,
             
             "latitude": 33.626057,
            
             "longitude": 73.071442,
             "name": "Rawalpindi",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 10,
+            
+            "latitude": 33.9077736,
+           
+            "longitude": 73.3914997,
+            "name": "Murree",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 10,
+            
+            "latitude": 30.157458,
+           
+            "longitude": 71.524915,
+            "name": "Multan",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 13,
+            
+            "latitude": 31.450366,
+           
+            "longitude": 73.134961,
+            "name": "Faisalabad",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 12,
+            
+            "latitude": 32.942459,
+           
+            "longitude": 73.72575,
+            "name": "Jehlum",
+            "country": "PK",
+            "lastUpdated": "2020-03-27T08:26:07.182Z"
+           
+        },
+        {
+            "infected": 10,
+            
+            "latitude": 32.573072,
+           
+            "longitude": 74.100504,
+            "name": "Gujrat",
             "country": "PK",
             "lastUpdated": "2020-03-27T08:26:07.182Z"
            
