@@ -8,8 +8,7 @@ var myChart = new Chart(ctx, {
   // The data for our dataset
   data: {
     // Data Labels
-    labels: ["prediction","crime today","No crime today","crime tomorrow","no crime tomorrow"],
-
+   labels: ["prediction of crime Tomorrow","YES","NO"],
     datasets: [
       // Data Set 1
       {
@@ -17,7 +16,7 @@ var myChart = new Chart(ctx, {
         label: "Crime",
 
         // Actual Data
-        data: [0, 35,65,70,30],
+        data: [0, 35,65],
 
         // Background Color
         backgroundColor: [
